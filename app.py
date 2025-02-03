@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for
 
 app = Flask(__name__)
 
-# Инициализация базы данных в виде списка словарей
+# Initialization of the database as a list of dictionaries
 db = []
 
 @app.route("/")
